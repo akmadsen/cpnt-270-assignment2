@@ -1,0 +1,52 @@
+/* 
+ Table Exercise 
+ ==============
+  
+ Palette: 
+ --------
+
+ #b22222 
+ #ddd 
+ #fff
+ */
+
+.flex-container { 
+    min-height: 600px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.time { 
+    text-align: left; 
+}
+
+.temp, .humid { 
+    text-align: right; 
+}
+
+table * { 
+    font-family: sans-serif; 
+}
+
+table { 
+    width: 800px; 
+    box-shadow: 0 15px 16px 0px rgba(133, 133, 136, 0.2);
+    border-spacing: 0px; 
+    border-collapse: collapse; 
+}
+
+tr { 
+    height: 77px; 
+}
+
+caption { 
+    text-align: left; 
+    font-size: 40px;
+    color: #b22222;
+}
+
+thead {
+    background-color: #b22222; 
+    color: white; 
+}
