@@ -7,7 +7,7 @@
 
  #b22222 
  #ddd 
- #fff
+ #222
  */
 
 .flex-container { 
@@ -19,27 +19,40 @@
 
 .time { 
     text-align: left; 
-    padding-left: 20px; 
+    padding-left: 25px; 
 }
 
 .temp, .humid { 
     text-align: right; 
-    padding-right: 20px; 
+    padding-right: 25px; 
 }
+
+tbody tr { 
+    border-bottom: 1px solid #ccc; 
+}    
 
 table * { 
     font-family: sans-serif; 
 }
 
 table { 
-    width: 800px; 
-    box-shadow: 0 15px 16px 0px rgba(133, 133, 136, 0.2);
+    width: 700px; 
+    box-shadow: 0 20px 16px 0px rgba(133, 133, 136, 0.2);
     border-spacing: 0px; 
     border-collapse: collapse; 
 }
 
 tr { 
-    height: 77px; 
+    height: 70px; 
+}
+
+th {    
+    font-size: 20px; 
+    font-weight: lighter; 
+}
+
+td { 
+    font-size: 20px; 
 }
 
 caption { 
@@ -51,4 +64,9 @@ caption {
 thead {
     background-color: #b22222; 
     color: white; 
+}
+
+tbody .time { 
+    background-color: #ddd; 
+    color: #333; 
 }
