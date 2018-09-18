@@ -1,15 +1,3 @@
-/* 
- Table Exercise 
- ==============
-  
- Palette: 
- --------
-
- #b22222 
- #ddd 
- #222
- */
-
 .flex-container { 
     min-height: 600px;
     display: flex; 
@@ -27,14 +15,6 @@
     padding-right: 25px; 
 }
 
-tbody tr { 
-    border-bottom: 1px solid #ccc; 
-}    
-
-table * { 
-    font-family: sans-serif; 
-}
-
 table { 
     width: 700px; 
     box-shadow: 0 20px 16px 0px rgba(133, 133, 136, 0.2);
@@ -42,21 +22,8 @@ table {
     border-collapse: collapse; 
 }
 
-th, td { 
-    width: 33.333333333333333%; 
-}
-
-tr { 
-    height: 70px; 
-}
-
-th {    
-    font-size: 20px; 
-    font-weight: lighter; 
-}
-
-td { 
-    font-size: 20px; 
+table * { 
+    font-family: sans-serif; 
 }
 
 caption { 
@@ -70,7 +37,27 @@ thead {
     color: white; 
 }
 
+tbody tr { 
+    border-bottom: 1px solid #ccc; 
+}    
+
 tbody .time { 
     background-color: #ddd; 
     color: #333; 
 }
+
+th, td { 
+    width: 33.333333333333333%; 
+    font-size: 20px; 
+}
+
+tr { 
+    height: 70px; 
+}
+
+th {    
+    font-weight: lighter; 
+}
+
+
+
